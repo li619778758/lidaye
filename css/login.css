@@ -1,0 +1,362 @@
+@charset "utf-8";
+
+html,body{
+	height:100%;
+	width:100%;
+	font-family: "微软雅黑";
+	
+}
+.con{
+	width:1221px;
+	margin:0 auto;
+}
+#top{
+	height:92px;
+	width:100%;
+	background:#fff;
+}
+#top .top_con{
+	height:92px;
+	
+}
+#top .top_con h1{
+	display: inline-block;
+	margin: 22px 0 0 20px;
+	
+}
+#content{
+	height:645px;
+	width:100%;
+	background:#f8f6df;
+	background: url(../images/lo-img/login-bg.png) no-repeat center;
+}
+#content .content_con{
+	height:645px;
+	
+}
+#content .content_con .content_conR{
+	height:481px;
+	width:297px;
+	float: right;
+	margin-top: 82px;
+	background: #FFF;
+	position: relative;
+	padding:0 24px;
+	
+}
+#content .content_conR  i{
+	float: right;
+	height:25px;
+	width:110px;
+	line-height: 25px;
+	font-size: 11px;
+	text-align: center;
+	color:#22ac69;
+	margin: 12px 70px 0 0 ;
+	background:url(../images/lo-img/login-type-arrowBg.png) no-repeat;
+	position: relative;
+	
+	
+}
+#content .content_conR  i img{
+	position: absolute;
+	left:-300px;
+	top:0;
+	display: none;
+	
+}
+#content .content_conR  .saoma{
+	position: absolute;
+	top:6px;
+	right: 6px;
+}
+#content .content_con  h2{
+	/*display: inline-block;*/
+	margin-top: 46px;
+	font-size: 20px;
+	font-weight: 600;
+	float: left;
+}
+#content .content_conR>span{
+	float:left;
+	width: 100%;
+	width:100%;
+	height:25px;
+}
+#content .content_con  form{
+	height:290px;
+	width:297px;
+	float:left;
+}
+#content .content_con  form input{
+	height:48px;
+	width:291px;
+	border-color: 2px solid #e6e6e6;
+	margin-top: 18px;
+}
+#content .content_con  form .inpid{
+	padding-left: 40px;
+	background:url(../images/lo-img/go-complaint-gray.png) no-repeat;
+	width:257px;
+	background-position: 5px 15px;
+	background-size: 18px;
+	margin-top: 0px;
+	display: block;
+	border:1px solid #e6e6e6;
+}
+#content .content_con  form .inpwd{
+	padding-left: 40px;
+	background:url(../images/lo-img/uc-password-icon.png) no-repeat;
+	width:257px;
+	background-position: 5px 15px;
+	background-size: 18px;
+	display: block;
+	border:1px solid #e6e6e6;
+}
+#content .content_con  form .inpcode{
+	padding-left: 20px;
+	width:142px;
+}
+#content .content_con  form ul{
+	overflow: hidden;
+}
+#content .content_con  form ul input{
+	height:44px;
+	width:162px;
+	border-color: 2px solid #e6e6e6;
+	margin-top: 18px;
+	float: left;
+}
+#content .content_con  form ul span{
+	text-align: center;
+	letter-spacing: 5px;
+	text-decoration: line-through;
+	font-weight: 600;
+	font-size: 20px;
+	height:46px;
+	width:120px;
+	line-height: 46px;
+	border: 1px solid #e6e6e6;
+	float: right;
+	margin-top: 18px;
+	cursor:pointer;
+}
+#content .content_con  form .zhuce_help{
+	
+	height:60px;
+	width:100%;
+	overflow: hidden;
+}
+#content .content_con  form .zhuce_help a:nth-child(1){
+	color:#8e7e9f;
+	float:left;
+	line-height: 60px;
+	font-size: 12px;
+}
+#content .content_con  form .zhuce_help a:nth-child(2){
+	color:#8e7e9f;
+	float:right;
+	line-height: 60px;
+	font-size: 12px;
+}
+#content .content_con  form .zhuce_help a:hover{
+	color:#22ac69;
+	text-decoration: underline;
+}
+#content .content_con  form .dengl{
+	margin-top: 0;
+	border-radius: 3px;
+	background: #22ac69;
+	color:#fff;
+	text-align: center;
+	border:none
+}
+#content .content_con  form .other_dl{
+	height:77px;
+	width:291px;
+	font-size: 12px;
+	color:#333;
+	overflow: hidden;
+}
+#content .content_con  form .other_dl div{
+	margin-top: 24px;
+	height:53px;
+	width:190px;
+	font-size: 12px;
+	color:#333;
+	float:right
+}
+#content .content_con  form .other_dl span{
+	height:26px;
+	float:left;
+	margin-top: 30px;
+}
+#content .content_con  form .other_dl a{
+	margin-left: 6px;
+	float:left;
+	width: 25px;
+	height:25px;	
+}
+#content .content_con  form .other_dl div a:nth-child(1){
+	background: url(../images/lo-img/third-login-icon.png) no-repeat;
+	background-position:-27px 0 ;
+}
+#content .content_con  form .other_dl div a:nth-child(1):hover{
+	background-position:0px 0 ;
+}
+#content .content_con  form .other_dl div a:nth-child(2){
+	background: url(../images/lo-img/third-login-icon.png) no-repeat;
+	background-position:-27px -108px ;
+}
+#content .content_con  form .other_dl div a:nth-child(2):hover{
+	background-position:0px -108px ;
+}
+#content .content_con  form .other_dl div a:nth-child(3){
+	background: url(../images/lo-img/third-login-icon.png) no-repeat;
+	background-position:-27px -81px ;
+}
+#content .content_con  form .other_dl div a:nth-child(3):hover{
+	background-position:0px -81px ;
+}
+#content .content_con  form .other_dl div a:nth-child(4){
+	background: url(../images/lo-img/third-login-icon.png) no-repeat;
+	background-position:-27px -135px ;
+}
+#content .content_con  form .other_dl div a:nth-child(4):hover{
+	background-position:0px -135px ;
+}
+#content .content_con  form .other_dl div a:nth-child(5){
+	background: url(../images/lo-img/third-login-icon.png) no-repeat;
+	background-position:-27px -27px ;
+}
+#content .content_con  form .other_dl div a:nth-child(5):hover{
+	background-position:0px -27px ;
+}
+#content .content_con  form .other_dl div a:nth-child(6){
+	background: url(../images/lo-img/third-login-icon.png) no-repeat;
+	background-position:-27px -54px ;
+}
+#content .content_con  form .other_dl div a:nth-child(6):hover{
+	background-position:0px -54px ;
+}
+#footer{
+	height:228px;
+	width:100%;
+	background:#fff;
+}
+#footer .footer_con{
+	height:228px;
+	
+}
+#footer .footer_con ul{
+	height:62px;
+	margin: 30px 0px;
+	padding-left: 61px;
+}
+#footer .footer_con ul a{
+	padding-left: 80px;
+	float:left;
+	height:60px;
+	width:160px;
+	border:1px solid #c3c3c3;
+	background:gold;
+	margin-right:44px;
+}
+#footer .footer_con ul a:hover{
+	background:#22ac69;
+	border:1px solid #22ac69;
+	color:#22ac69;
+}
+#footer .footer_con ul a:hover span{
+	color:#22ac69;
+}
+#footer .footer_con ul a:hover p{
+	color:#22ac69;
+}
+#footer .footer_con ul a span{
+	font-size: 12px;
+	color:#666;
+	height:30px;
+	line-height: 30px;
+	display: block;
+}
+#footer .footer_con ul a p{
+	display:inline-block;
+	height:15px;
+	font-size: 15px;
+	line-height: 15px;
+	color:#a1a1a1;
+	text-align: left;
+}
+#footer .footer_con ul a:nth-child(1){
+	background: url(../images/lo-img/go-complaint-gray.png) no-repeat;
+	background-position: 33px 11px;
+	background-size:36px;
+}
+#footer .footer_con ul a:nth-child(1):hover{
+	background: url(../images/lo-img/re-img01.png) no-repeat;
+	background-position: 35px 12px;
+	background-size:32px;
+}
+#footer .footer_con ul a:nth-child(2){
+	background: url(../images/lo-img/frequent-question-icon.png) no-repeat;
+	background-position: 33px 11px;
+}
+#footer .footer_con ul a:nth-child(2):hover{
+	background: url(../images/lo-img/re-img02.png) no-repeat;
+	background-position: 34px 12px;
+}
+#footer .footer_con ul a:nth-child(3){
+	background: url(../images/lo-img/find-password-icon.png) no-repeat;
+	background-position: 33px 11px;
+}
+#footer .footer_con ul a:nth-child(3):hover{
+	background: url(../images/lo-img/re-img03.png) no-repeat;
+	background-position: 34px 15px;
+}
+#footer .footer_con ul a:nth-child(4){
+	background: url(../images/lo-img/account-security-icon.png) no-repeat;
+	background-position: 33px 11px;
+	margin-right:0px;
+}
+#footer .footer_con ul a:nth-child(4):hover{
+	background: url(../images/lo-img/re-img04.png) no-repeat;
+	background-position: 35px 11px;
+	margin-right:0px;
+}
+#footer .footer_con p{
+	text-align: center;
+	color:#999999;
+	line-height: 21px;
+	font-size: 12px;
+	
+}
+#footer .footer_con p a{
+	color:#999999;
+	line-height: 21px;
+	font-size: 12px;
+	
+}
+#footer .footer_con p:nth-child(4){
+	display: block;
+	
+}
+#footer .footer_con p:nth-child(4) a img{
+	position: absolute;
+left:-25px;top:1px;
+}
+#footer .footer_con p:nth-child(4) a{
+	display: inline-block;
+	position: relative;
+	
+}
+
+
+
+
+
+
+
+
+
+
